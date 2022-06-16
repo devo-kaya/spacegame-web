@@ -90,5 +90,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Resource Manager - Space Game'
-              appName: '$(WebAppName)'
+              appName: space-game-devo
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
